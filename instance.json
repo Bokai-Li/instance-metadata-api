@@ -1,0 +1,104 @@
+{
+    "crn": "crn:[...]",
+    "id": "eb1b7391-2ca2-4ab5-84a8-b92157a633b0",
+    "name": "my-instance",
+    "resource_type": "instance",
+    "profile": {
+      "name": "bx2-2x8",
+      "resource_type": "instance_profile"
+    },
+    "image": {
+      "crn": "crn:[...]",
+      "id": "9aaf3bcb-dcd7-4de7-bb60-24e39ff9d366",
+      "name": "my-image",
+      "resource_type": "image"
+    },
+    "vcpu": {
+      "architecture": "amd64",
+      "count": 2
+    },
+    "memory": 8,
+    "boot_volume_attachment": {
+      "id": "a8a15363-a6f7-4f01-af60-715e85b28141",
+      "name": "my-boot-volume-attachment",
+      "resource_type": "volume_attachment",
+      "volume": {
+        "crn": "crn:[...]",
+        "id": "49c5d61b-41e7-4c01-9b7a-1a97366c6916",
+        "name": "my-boot-volume",
+        "resource_type": "volume"
+      }
+    },
+    "volume_attachments": [
+      {
+        "id": "a8a15363-a6f7-4f01-af60-715e85b28141",
+        "name": "my-boot-volume-attachment",
+        "resource_type": "volume_attachment",
+        "volume": {
+          "crn": "crn:[...]",
+          "id": "49c5d61b-41e7-4c01-9b7a-1a97366c6916",
+          "name": "my-boot-volume",
+          "resource_type": "volume"
+        }
+      },
+      {
+        "id": "e77125cb-4df0-4988-a878-531ae0ae0b70",
+        "name": "my-volume-attachment-1",
+        "resource_type": "volume_attachment",
+        "volume": {
+          "crn": "crn:[...]",
+          "id": "2cc091f5-4d46-48f3-99b7-3527ae3f4392",
+          "name": "my-data-volume",
+          "resource_type": "volume"
+        }
+      }
+    ],
+    "primary_network_interface": {
+      "primary_ip": {
+        "address": "10.0.0.32"
+      },
+      "id": "7ca88dfb-8962-469d-b1de-1dd56f4c3275",
+      "name": "my-network-interface",
+      "resource_type": "network_interface",
+      "subnet": {
+        "crn": "crn:[...]",
+        "id": "bea6a632-5e13-42a4-b4b8-31dc877abfe4",
+        "name": "my-subnet",
+        "resource_type": "subnet"
+      }
+    },
+    "network_interfaces": [
+      {
+        "primary_ip": {
+          "address": "10.0.0.32"
+        },
+        "id": "7ca88dfb-8962-469d-b1de-1dd56f4c3275",
+        "name": "my-network-interface",
+        "resource_type": "network_interface",
+        "subnet": {
+          "crn": "crn:[...]",
+          "id": "bea6a632-5e13-42a4-b4b8-31dc877abfe4",
+          "name": "my-subnet",
+          "resource_type": "subnet"
+        }
+      }
+    ],
+    "personas": [
+      {
+        "crn": "crn:[...]",
+        "id": "8c63e36e-bf50-4ede-91ef-cce77ccee7f2",
+        "name": "my-persona",
+        "resource_type": "persona"
+      }
+    ],
+    "vpc": {
+      "crn": "crn:[...]",
+      "id": "f0aae929-7047-46d1-92e1-9102b07a7f6f",
+      "name": "my-vpc",
+      "resource_type": "vpc"
+    },
+    "zone": {
+      "name": "us-south-1",
+      "resource_type": "zone"
+    }
+  }

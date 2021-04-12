@@ -1,0 +1,16 @@
+{
+    "errors": [
+      {
+        "code": "ttl_too_large",
+        "message": "The `ttl` field must not exceed `3600`.",
+        "more_info": "https://cloud.ibm.com/docs/vpc?topic=vpc-metadata-service#token-ttl",
+        "target": {
+          "type": "field",
+          "name": "ttl",
+          "value": "7200"
+        }
+      }
+    ],
+    "status_code": 400,
+    "trace": "e37872f6-f9a4-4084-a1a8-e56a1c8c8d3d"
+  }

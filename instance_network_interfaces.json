@@ -1,0 +1,26 @@
+{
+    "network_interfaces": [
+      {
+        "primary_ip": {
+          "address": "10.0.0.32"
+        },
+        "id": "7ca88dfb-8962-469d-b1de-1dd56f4c3275",
+        "name": "my-network-interface",
+        "resource_type": "network_interface",
+        "subnet": {
+          "crn": "crn:[...]",
+          "id": "bea6a632-5e13-42a4-b4b8-31dc877abfe4",
+          "name": "my-subnet",
+          "resource_type": "subnet"
+        },
+        "security_groups": [
+          {
+            "crn": "crn:[...]",
+            "id": "a929f12d-fb45-4e5e-9864-95e171ae3589",
+            "name": "my-security-group",
+            "resource_type": "security_group"
+          }
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,11 @@
+{
+    "id": "e77125cb-4df0-4988-a878-531ae0ae0b70",
+    "name": "my-volume-attachment-1",
+    "resource_type": "volume_attachment",
+    "volume": {
+      "crn": "crn:[...]",
+      "id": "2cc091f5-4d46-48f3-99b7-3527ae3f4392",
+      "name": "my-data-volume",
+      "resource_type": "volume"
+    }
+  }

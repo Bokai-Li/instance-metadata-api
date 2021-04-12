@@ -1,0 +1,13 @@
+{
+    "keys": [
+      {
+        "crn": "crn:[...]",
+        "id": "82679077-ac3b-4c10-be16-63e9c21f0f45",
+        "name": "my-key-1",
+        "resource_type": "key",
+        "fingerprint": "SHA256:RJ+YWs2kupwFGiJuLqY85twmcdLOUcjIc9cA6IR8n8E"
+      }
+    ],
+    "user_data": "[...]",
+    "resource_type": "instance_initialization"
+  }
